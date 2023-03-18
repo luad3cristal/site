@@ -6,10 +6,12 @@
 
 :root {
   --body-bg-color: rgba(255, 183, 210, 0.7);
+  --text-color: black;
 }
 
 body {
   background-color: var(--body-bg-color);
+  color: var(--text-color);
   /* height: 100vh; */
 }
 
@@ -61,4 +63,25 @@ body {
   text-transform: uppercase;
 
   margin-top: 7px;
+}
+
+/* social links */
+
+#social-links {
+  display: flex;
+  justify-content: center;
+
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  margin-top: 29px;
+}
+
+ion-icon {
+  color: black;
 }
