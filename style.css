@@ -79,9 +79,46 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 16px;
-  margin-top: 29px;
+  margin-top: 24px;
 }
 
 ion-icon {
   color: black;
+}
+
+/* links */
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+#first {
+  margin-top: 24px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px 17px;
+
+  background-color: none;
+  border: 2px solid white;
+  border-radius: 4px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
 }
