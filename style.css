@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: rgba(255, 183, 210, 0.7);
+}
+
+body {
+  background-color: var(--body-bg-color);
+  /* height: 100vh; */
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 58px auto 0px;
+  padding: 0 24px;
+}
+
+/* perfil */
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 170px;
+
+  border-radius: 50%;
+  border: 2px solid var(--body-bg-color);
+  outline: 3px solid #ff7bab;
+}
+
+#profile p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+  line-height: 27px;
+
+  margin-top: 15px;
+}
+
+/* apresentação */
+
+#presentation {
+  text-align: center;
+}
+
+#presentation p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+
+  line-height: 20px;
+
+  text-transform: uppercase;
+
+  margin-top: 7px;
+}
